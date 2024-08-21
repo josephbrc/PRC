@@ -1,6 +1,6 @@
 ## PRC, an easy way to protect your class pointers.
 
-PRC is a simple quick header-only utility I created to encrypt pointers as they are made to prevent pointer references being created and easily seen in disassembly by reverse engineers.
+PRC is a simple quick header-only utility I created to prevent pointer references being created and easily seen in disassembly by reverse engineers using bitwise encryption and randomization with key and offset system(s).
 In NO WAY is PRC a way to deal with bad actors modifying class field data, or nor will it prevent master reversers from getting your pointers on demand. PRC is meant to combat static analysis.
 
 ## Usage
